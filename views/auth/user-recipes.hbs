@@ -1,0 +1,29 @@
+
+<form class="user-design" action="/auth/user-recipes/{{recipe._id}}" method="post">
+  <label for="">Name:</label>
+  <input type="text" name="name" value="{{recipe.name}}">
+
+  <label for="">Ingredients list:</label>
+  <input type="text" name="ingredientsList" value="{{recipe.ingredientsList}}">
+
+  <label for="">Ingredients full:</label>
+  <input type="text" name="ingredientsFull" value="{{recipe.ingredientsFull}}">
+
+  <label for="">Pasta:</label>
+  <input type="text" name="pasta" value="{{recipe.pasta}}">
+
+  <label for="">Instructions:</label>
+  <input type="text" name="instructions" value="{{recipe.instructions}}">
+
+  <label for="">Time:</label>
+  <input type="number" name="time" value="{{recipe.time}}">
+
+  <label for="">Image-URL:</label>
+  <input type="text" name="image" value="{{recipe.image}}">
+
+  <button type="submit">EDIT</button>
+</form>
+
+
+
+

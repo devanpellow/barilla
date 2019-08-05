@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+.navbar {
+  background-color: #021f42;
+  color: #fecb45;
+  max-height: 7vh; }
+
+.nav-link {
+  color: #fecb45; }
+
+.nav-link:hover {
+  color: white; }
+
+.footer {
+  background-color: #021f42;
+  color: white;
+  font-size: 0.8rem;
+  max-height: 4vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1vh;
+  margin: 0; }
+
+.footer p {
+  margin: 0; }
+
+#error-msg {
+  color: white;
+  text-align: center; }
+
+#user-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; }
+
+#user_input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+#user-ingredients {
+  width: 60vw;
+  height: 20vh; }
+
+.user-input-ingredients {
+  background-color: #021f42;
+  color: white; }
+
+.carousel-caption {
+  color: black;
+  background-color: white;
+  position: relative;
+  height: 120vh;
+  overflow-y: scroll;
+  margin-top: 3vh;
+  left: auto;
+  right: auto; }
+
+.carousel-inner {
+  overflow: visible; }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #021f42;
+  position: fixed;
+  bottom: 65vh; }
+
+.carousel-image {
+  height: 20vh;
+  object-fit: cover; }
+
+.ingredients-text {
+  line-height: 1.6;
+  font-size: 1.0rem;
+  padding-bottom: 2vh;
+  font-weight: 500; }
+
+.instructions-text {
+  line-height: 1.6;
+  font-size: 1rem; }
+
+h5 {
+  margin-left: 4vh;
+  margin-right: 4vh;
+  padding-bottom: 2vh; }
+
+h6 {
+  color: #2a7fb1;
+  padding-bottom: 1vh; }
+
+.fridge-bg {
+  color: #095e8f;
+  height: 100vh;
+  background-image: url("../images/spaghetti.png"), radial-gradient(#1c5e8b, #011227);
+  background-repeat: no-repeat;
+  background-size: 100% 90%, 100% 100%;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.fridge-input {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+
+.dropdown-menu {
+  min-width: 1vw;
+  left: -8.5vw;
+  background-color: #021f42;
+  color: #fecb45; }
+
+.dropdown-item {
+  color: #fecb45;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 1rem; }
+
+.user-design {
+  color: white;
+  background-color: #e8f0fe;
+  background-image: radial-gradient(#1c5e8b, #011227);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.user-design p {
+  position: absolute;
+  bottom: -102%;
+  margin: 0 auto; }
+
+.special-color-user {
+  color: #fecb45; }
+
+form#form-container {
+  position: absolute;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+#container {
+  display: flex; }
+
+.profile-design {
+  color: white;
+  background-color: #e8f0fe;
+  background-image: radial-gradient(#1c5e8b, #011227);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh; }
+
+.user-recipe-many-wrapper {
+  margin-bottom: 150px; }
+
+.user-recipe-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2vh; }
+
+.recipe-name-btn {
+  color: white; }
+
+.delete-recipe-btn {
+  padding-left: 4vw;
+  color: #c94f59; }
+
+/*# sourceMappingURL=style.css.map */

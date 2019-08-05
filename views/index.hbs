@@ -1,0 +1,38 @@
+<div class="fridge-bg">
+  <div class="form-wrapper">
+    <div class="fridge-input">
+      <p id="error-msg"></p>
+        <form name="form1" id="user-form" action="/ingredients" method="post" onsubmit="return required()">
+
+          <div class="input-wrapper">
+            
+            <select id="user-ingredients" class="js-example-placeholder-multiple js-states form-control"
+              name="userIngredientInput" multiple="multiple">
+              
+              {{#each arrIngrNoDup}}
+              <option value="{{ this }}">
+                {{toUpperCase this}}</option>
+              {{/each}}
+
+            </select>
+
+          </div>
+
+          <div class="button-wrapper">
+            <button class="btn btn-submit user-input-ingredients mt-4" type="submit">Let's Go!</button>
+          </div>
+
+        </form>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $('.js-example-basic-multiple').select2();
+      });
+
+      $(".js-example-placeholder-multiple").select2({
+        placeholder: "What's in your fridge?"
+      });
+    </script>
+  </div>
+</div>

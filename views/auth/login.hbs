@@ -1,0 +1,26 @@
+<div class="user-design">
+
+<form action="/auth/login" method="POST" id="form-container">
+  <label for="username">Username</label>
+  <input id="username" type="text" name="username" placeholder="Username">
+
+  <br><br>
+
+  <label for="password">Password</label>
+  <input id="password" type="password" name="password" placeholder="Your password">
+  <br>
+  {{#if message }}
+    <div class="error-message">{{ message }}</div>
+  {{/if}}
+
+  <br><br>
+
+
+  <button type="submit" class="btn btn-secondary">Login</button>
+
+  <p class="account-message">
+    Don't have an account yet?
+    <a class="special-color-user" href="/auth/signup">Signup</a>
+  </p>
+</form>
+</div>
